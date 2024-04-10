@@ -12,7 +12,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 71,
@@ -31,7 +31,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36 , "classname":"required"},
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -55,7 +55,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 71,
@@ -73,7 +73,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 17,
@@ -90,7 +90,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -114,7 +114,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 45,
@@ -138,7 +138,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -153,7 +153,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "География", "min": 37, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -175,7 +175,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 46,
@@ -194,7 +194,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -218,7 +218,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 51,
@@ -237,7 +237,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -261,7 +261,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 25,
@@ -280,7 +280,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -302,7 +302,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 50,
@@ -320,7 +320,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 10 м.",
+							"duration": "4 года 10 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -333,7 +333,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -355,7 +355,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "6 л",
+							"duration": "6 лет",
 							"vacations": {
 								"free": {
 									"total": 25,
@@ -374,7 +374,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -396,7 +396,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "5 л.",
+							"duration": "5 лет",
 							"vacations": {
 								"free": {
 									"total": 70,
@@ -414,7 +414,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "5 л. 8 м.",
+							"duration": "5 лет 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -431,7 +431,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -453,7 +453,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 20,
@@ -472,7 +472,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -494,7 +494,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -510,7 +510,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements": []
 		},
 		{
@@ -525,7 +525,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 20,
@@ -549,7 +549,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -564,7 +564,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -580,7 +580,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -603,7 +603,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 20,
@@ -621,7 +621,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -638,7 +638,7 @@
 					]
 				}
 			],
-			"price": "1 700",
+			"price": "500 000",
 			"requirements":  [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -661,7 +661,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 10,
@@ -680,27 +680,23 @@
 					]
 				}
 			],
-			"price":"1 700",
-			"requirements": {
-				"necessary": [
-					{ "name": "Математика", "min": 27, "requried": true },
-					{ "name": "Русский язык", "min": 36, "requried": true },
-					{ "name": "Физика", "min": 36, "requried": false },
-					{ "name": "Химия", "min": 36, "requried": false },
-					{ "name": "Биология", "min": 36, "requried": false },
-					{ "name": "Информатика и ИКТ", "min": 40, "requried": false },
-					{ "name": "Иностранный язык", "min": 22, "requried": false }
-				],
-				"optional": [
-				]
-			}
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname": "required" },
+				{ "name": "Русский язык", "min": 36, "classname": "required" },
+				{ "name": "Физика", "min": 36, "classname": "optional" },
+				{ "name": "Химия", "min": 36, "classname": "optional" },
+				{ "name": "Биология", "min": 36, "classname": "optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname": "optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname": "optional" }
+			]
 		},
 		{
 			"id": 14,
 			"faculty":"Юридический факультет",
 			"profile": "Юридическая деятельность в органах публичной власти",
 			"speciality": "Юриспруденция",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -737,7 +733,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 50,
@@ -755,7 +751,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -772,7 +768,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -795,7 +791,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 40,
@@ -813,7 +809,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 10 м.",
+							"duration": "4 года 10 мес.",
 							"vacations": {
 								"free": {
 									"total": 13,
@@ -830,10 +826,10 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
-				{ "name": "Биология", "min": 36, "requried": true },
-				{ "name": "Русский язык", "min": 36, "requried": true },
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
 				{ "name": "Математика", "min": 27, "requried": false },
 				{ "name": "Химия", "min": 36, "requried": false },
 				{ "name": "Физика", "min": 36, "requried": false },
@@ -852,7 +848,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 70,
@@ -870,7 +866,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 9 м.",
+							"duration": "4 года 9 м.",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -887,19 +883,15 @@
 					]
 				}
 			],
-			"price":"1 700",
-			"requirements": {
-				"necessary": [
-					{ "name": "Математика", "min": 27, "classname":"required" },
-					{ "name": "Русский язык", "min": 36, "classname":"required" },
-					{ "name": "Физика", "min": 36, "classname":"optional" },
-					{ "name": "Химия", "min": 36, "classname":"optional" },
-					{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
-					{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
-				],
-				"optional": [
-				]
-			}
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
 		},
 		{
 			"id": 18,
@@ -913,7 +905,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "5 л.",
+							"duration": "5 лет",
 							"vacations": {
 								"free": {
 									"total": 25,
@@ -930,14 +922,14 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
-				{ "name": "Математика", "min": 27, "rewuried": true },
-				{ "name": "Русский язык", "min": 36, "rewuried": true },
-				{ "name": "Физика", "min": 36, "rewuried": false },
-				{ "name": "Химия", "min": 36, "rewuried": false },
-				{ "name": "Информатика и ИКТ", "min": 40, "rewuried": false },
-				{ "name": "Иностранный язык", "min": 22, "rewuried": false }
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
 			]
 		},
 		{
@@ -952,7 +944,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 40,
@@ -971,7 +963,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -994,7 +986,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 40,
@@ -1012,7 +1004,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 11,
@@ -1029,21 +1021,17 @@
 					]
 				}
 			],
-			"price":"1 700",
-			"requirements": {
-				"necessary": [
-					{ "name": "Биология", "min": 36, "classname":"required" },
-					{ "name": "Русский язык", "min": 36, "classname":"required" },
-					{ "name": "Математика", "min": 27, "classname":"optional" },
-					{ "name": "Химия", "min": 36, "classname":"optional" },
-					{ "name": "География", "min": 37, "classname":"optional" },
-					{ "name": "Физика", "min": 36, "classname":"optional" },
-					{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
-					{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
-				],
-				"optional": [
-				]
-			}
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
 		},
 		{
 			"id": 21,
@@ -1057,7 +1045,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 57,
@@ -1075,7 +1063,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 10,
@@ -1092,7 +1080,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Биология", "min": 36, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1116,7 +1104,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 70,
@@ -1174,7 +1162,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -1191,7 +1179,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1213,7 +1201,7 @@
 						{
 							"code": "38.03.05",
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1228,7 +1216,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1251,7 +1239,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1265,7 +1253,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1279,11 +1267,11 @@
 				},
 				{
 					"name": "Магистратура",
+					"code": "38.04.04",
 					"forms": [
 						{
-							"code": "38.04.04",
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 1
@@ -1294,9 +1282,8 @@
 							}
 						},
 						{
-							"code": "38.04.04",
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1309,10 +1296,10 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
-				{ "name": "Обществознание", "min": 42, "requried": true },
-				{ "name": "Русский язык", "min": 36, "requried": true },
+				{ "name": "Обществознание", "min": 42, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
 				{ "name": "История", "min": 32, "requried": false },
 				{ "name": "Математика", "min": 27, "requried": false },
 				{ "name": "География", "min": 37, "requried": false },
@@ -1332,7 +1319,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1346,7 +1333,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1359,7 +1346,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1382,7 +1369,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1396,7 +1383,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1409,7 +1396,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1432,7 +1419,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "5 л.",
+							"duration": "5 лет",
 							"vacations": {
 								"free": {
 									"total": 3
@@ -1444,7 +1431,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "5 л. 8 м.",
+							"duration": "5 лет 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1457,7 +1444,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1480,7 +1467,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1494,7 +1481,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1507,7 +1494,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1530,7 +1517,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1542,7 +1529,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1555,7 +1542,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": []
 		},
 		{
@@ -1570,7 +1557,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1584,7 +1571,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1597,7 +1584,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1620,7 +1607,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1634,7 +1621,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1647,10 +1634,10 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
-				{ "name": "Математика", "min": 27, "requried": true },
-				{ "name": "Русский язык", "min": 36, "requried": true },
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
 				{ "name": "Обществознание", "min": 42, "requried": false },
 				{ "name": "История", "min": 32, "requried": false },
 				{ "name": "География", "min": 37, "requried": false },
@@ -1670,7 +1657,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1684,7 +1671,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1697,7 +1684,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1720,7 +1707,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "5 л.",
+							"duration": "5 лет",
 							"vacations": {
 								"free": {
 									"total": 5,
@@ -1736,7 +1723,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "5 л. 8 м.",
+							"duration": "5 лет 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1749,7 +1736,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1772,7 +1759,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 45,
@@ -1789,7 +1776,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1811,7 +1798,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 65,
@@ -1829,7 +1816,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "4 г. 9 м.",
+							"duration": "4 года 9 м.",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -1851,7 +1838,7 @@
 						{
 							"code": "35.04.06",
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 25,
@@ -1866,7 +1853,7 @@
 						{
 							"code": "35.04.07",
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 5,
@@ -1881,7 +1868,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1903,7 +1890,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 16,
@@ -1921,7 +1908,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1935,7 +1922,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Обществознание", "min": 42, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -1956,7 +1943,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 16,
@@ -1974,7 +1961,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -1988,7 +1975,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Обществознание", "min": 42, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -2009,7 +1996,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 16,
@@ -2028,7 +2015,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Обществознание", "min": 42, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -2049,7 +2036,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 16,
@@ -2067,7 +2054,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "4 г. 8 м.",
+							"duration": "4 года 8 мес.",
 							"vacations": {
 								"free": {
 									"total": 1,
@@ -2082,7 +2069,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Обществознание", "min": 42, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -2103,7 +2090,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 2,
@@ -2120,7 +2107,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -2143,7 +2130,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "4 г.",
+							"duration": "4 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2156,7 +2143,7 @@
 					]
 				}
 			],
-			"price":"1 700",
+			"price":"500 000",
 			"requirements": [
 				{ "name": "Математика", "min": 27, "classname":"required" },
 				{ "name": "Русский язык", "min": 36, "classname":"required" },
@@ -2172,7 +2159,7 @@
 			"faculty": "Архитектурно-строительной факультет",
 			"profile": "Архитектурное проектирование, реконструкция и геотехническое строительство",
 			"speciality": "Строительство",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2194,7 +2181,7 @@
 						},
 						{
 							"name": "Очная",
-							"duration":"2 г. 5 м.",
+							"duration":"2 г. 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2215,7 +2202,7 @@
 			"faculty": "Факультет прикладной информатики",
 			"profile": "Проектно-исследовательская деятельность в области информационных технологий",
 			"speciality": "Информационные системы и технологии",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2237,7 +2224,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration":"2 г. 5 м.",
+							"duration":"2 г. 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 10,
@@ -2259,7 +2246,7 @@
 			"faculty": "Факультет прикладной информатики",
 			"speciality": "Менеджмент проектов в области информационных систем",
 			"profile": "Прикладная информатика",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2267,7 +2254,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 18,
@@ -2289,7 +2276,7 @@
 			"faculty": "Факультет пищевых производств и биотехнологии",
 			"speciality": "Прикладная биотехнология",
 			"profile": "Биотехнология",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2297,7 +2284,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2317,7 +2304,7 @@
 			"faculty": "Факультет пищевых производств и биотехнологии",
 			"speciality": "Биотехнология продуктов питания из растительного сырья",
 			"profile": "Продукты питания из растительного сырья",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2325,7 +2312,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 9,
@@ -2347,7 +2334,7 @@
 			"faculty": "Факультет механизации",
 			"speciality": "Наземные транспортно-технологические средства",
 			"profile": "Автомобили и тракторы",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Специалитет",
@@ -2355,7 +2342,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "5 л.",
+							"duration": "5 лет",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2382,7 +2369,7 @@
 			"faculty": "Факультет пищевых производств и биотехнологии",
 			"speciality": "Здоровое питание: качество и безопасность",
 			"profile": "Продукты питания из растительного сырья",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2390,7 +2377,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -2412,7 +2399,7 @@
 			"faculty": "Факультет пищевых производств и биотехнологии",
 			"speciality": "Разработка технологий продуктов питания животного происхождения",
 			"profile": "Продукты питания животного происхождения",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2420,7 +2407,7 @@
 					"forms": [
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 9,
@@ -2442,7 +2429,7 @@
 			"faculty": "Землеустроительный факультет",
 			"speciality": "Управление земельными ресурсами",
 			"profile": "Землеустройство и кадастры",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2450,7 +2437,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 5,
@@ -2472,7 +2459,7 @@
 			"faculty": "Факультет агрохимии и защиты растений",
 			"speciality": "Агробиохимия",
 			"profile": "Агрохимия и агропочвоведение",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2480,7 +2467,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 22,
@@ -2502,7 +2489,7 @@
 			"faculty": "Факультет агрономии и экологии",
 			"speciality": "Агротехнология",
 			"profile": "Агрономия",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2510,7 +2497,7 @@
 					"forms": [
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -2532,7 +2519,7 @@
 			"faculty": "Факультет агрономии и экологии",
 			"speciality": "Генетика и селекция в растениеводстве",
 			"profile": "Агрономия",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2540,7 +2527,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2560,7 +2547,7 @@
 			"faculty": "Факультет агрономии и экологии",
 			"speciality": "Земледелие",
 			"profile": "Агрономия",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2568,7 +2555,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 14,
@@ -2582,7 +2569,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -2604,7 +2591,7 @@
 			"faculty": "Факультет агрохимии и защиты растений",
 			"speciality": "Защита и карантин растений",
 			"profile": "Агрономия",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2612,7 +2599,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 20,
@@ -2634,7 +2621,7 @@
 			"faculty": "Факультет агрономии и экологии",
 			"speciality": "Селекция и семеноводство",
 			"profile": "Агрономия",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2642,7 +2629,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 14,
@@ -2664,7 +2651,7 @@
 			"faculty": "Факультет плодоовощеводства и виноградарства",
 			"speciality": "Инновационные технологии в садоводстве",
 			"profile": "Садоводство",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2672,7 +2659,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 18,
@@ -2686,7 +2673,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 10,
@@ -2708,7 +2695,7 @@
 			"faculty": "Факультет механизации",
 			"speciality": "Технологии и средства механизации сельского хозяйства",
 			"profile": "Агроинженерия",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2716,7 +2703,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 5,
@@ -2730,7 +2717,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 15,
@@ -2752,7 +2739,7 @@
 			"faculty": "Факультет зоотехнии",
 			"speciality": "Генетика и селекция в животноводстве",
 			"profile": "Зоотехния",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2760,7 +2747,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2780,7 +2767,7 @@
 			"faculty": "Факультет зоотехнии",
 			"speciality": "Частная зоотехния, технология производства продуктов животноводства",
 			"profile": "Зоотехния",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2788,7 +2775,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 8,
@@ -2802,7 +2789,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 13,
@@ -2824,7 +2811,7 @@
 			"faculty": "Учетно-финансовый факультет",
 			"speciality": "Анализ и аудит бизнеса",
 			"profile": "Экономика",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2832,7 +2819,7 @@
 					"forms": [
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2852,7 +2839,7 @@
 			"faculty": "Учетно-финансовый факультет",
 			"speciality": "Учет, анализ и аудит",
 			"profile": "Экономика",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2860,7 +2847,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2872,7 +2859,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"vacations": {
 									"free": {
@@ -2894,7 +2881,7 @@
 			"faculty": "Юридический факультет",
 			"speciality": "Цифровая экономика в АПК",
 			"profile": "Экономика",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2902,7 +2889,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2914,7 +2901,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2934,7 +2921,7 @@
 			"faculty": "Экономический факультет",
 			"speciality": "Экономика фирмы и отраслевых рынков",
 			"profile": "Экономика",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2942,7 +2929,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2954,7 +2941,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2974,7 +2961,7 @@
 			"faculty": "Экономический факультет",
 			"speciality": "Аграрный менеджмент",
 			"profile": "Менеджмент",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -2982,7 +2969,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -2994,7 +2981,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 3,
@@ -3016,7 +3003,7 @@
 			"faculty": "Факультет управления",
 			"speciality": "Менеджмент",
 			"profile": "Менеджмент организации",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -3024,7 +3011,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3036,7 +3023,7 @@
 						},
 						{
 							"name": "Заочная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3056,7 +3043,7 @@
 			"faculty": "Экономический факультет",
 			"speciality": "Управление проектами",
 			"profile": "Менеджмент",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -3064,7 +3051,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3076,7 +3063,7 @@
 						},
 						{
 							"name": "Очная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3096,15 +3083,15 @@
 			"faculty": "Факультет управления",
 			"speciality": "Управление комплексным развитием сельских территорий",
 			"profile": "Государственное и муниципальное управление",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
 					"code": "38.04.04",
 					"forms": [
 						{
-							"name": "Бакалавриат",
-							"duration": "2 г.",
+							"name": "Очная",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3124,7 +3111,7 @@
 			"faculty": "Юридический факультет",
 			"speciality": "Правовое обеспечение и защита бизнеса",
 			"profile": "Юриспруденция",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -3132,7 +3119,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 2,
@@ -3146,7 +3133,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3166,7 +3153,7 @@
 			"faculty": "Юридический факультет",
 			"speciality": "Теория и практика расследования преступлений",
 			"profile": "Юриспруденция",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -3174,7 +3161,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 2,
@@ -3188,7 +3175,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0
@@ -3208,7 +3195,7 @@
 			"faculty": "Юридический факультет",
 			"speciality": "Юридическая деятельность в сфере земельно-имущественных отношений и агробизнеса",
 			"profile": "Юриспруденция",
-			"price":"1 700",
+			"price":"500 000",
 			"education_levels": [
 				{
 					"name": "Магистратура",
@@ -3216,7 +3203,7 @@
 					"forms": [
 						{
 							"name": "Очная",
-							"duration": "2 г.",
+							"duration": "2 года",
 							"vacations": {
 								"free": {
 									"total": 2,
@@ -3230,7 +3217,7 @@
 						},
 						{
 							"name": "Очно-заочная",
-							"duration": "2 г. 5 м.",
+							"duration": "2 года 5 мес.",
 							"vacations": {
 								"free": {
 									"total": 0

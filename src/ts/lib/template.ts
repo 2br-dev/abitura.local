@@ -39,7 +39,7 @@ let template = `
 			</div>
 			<div class="number number-cost">
 				<div class="section-title">Стоимость контракта</div>
-				<div class="number-value">{{price}} т. ₽/год</div>
+				<div class="number-value">{{price}} ₽/год</div>
 			</div>
 		</div>
 	</div>

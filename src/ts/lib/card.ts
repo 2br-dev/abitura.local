@@ -1,5 +1,4 @@
 export interface IEducationForm{
-	code: string,
 	name: string,
 	duration: number,
 	vacations: {
@@ -26,6 +25,7 @@ export interface IRequirement{
 
 export interface IEducationLevel{
 	name: string,
+	code: string,
 	forms: Array<IEducationForm>
 }
 

@@ -5888,6 +5888,10 @@ body {
     display: none;
 }
 
+#output[data-level="Магистратура"] .card .card-content .requirements {
+    display: none;
+}
+
 #output[data-level="Магистратура"] .card .card-content .education-levels .education-level:not([data-level="Магистратура"]) {
     display: none;
 }

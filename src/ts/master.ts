@@ -188,7 +188,6 @@ function switchFormType(e:JQuery.ClickEvent):void{
 		return f.name == selectedForm;
 	})[0];
 
-	card.querySelector('.code').textContent = form.code;
 	card.querySelector('.number-free .number-value').textContent = form.vacations.free.total.toString();
 	card.querySelector('.number-paid .number-value').textContent = form.vacations.paid.total.toString();
 	card.querySelector('.number-duration .number-value').textContent = form.duration.toString();
@@ -254,6 +253,18 @@ function render(data:IData):void{
 	})
 
 	document.querySelectorAll('.card').forEach((card:HTMLElement) => {
+		
+		// Обновление кодов в карточке
+		let id = parseInt(card.dataset['id']);
+		let cardData = cards_data.elements[id];
+		let selectedLevel = document.querySelector("[name=level]:checked ~ label")?.textContent;
+		let level = cardData.education_levels?.filter((l:IEducationLevel) => {
+			return l.name == selectedLevel
+		})[0];
+
+		let code = level.code;
+		card.querySelector('.code').textContent = code;
+
 		document.querySelectorAll('.education-level').forEach((level:HTMLElement) => {
 			level.querySelectorAll('.education-form').forEach((form:HTMLElement) => {
 				form.classList.remove('active');
