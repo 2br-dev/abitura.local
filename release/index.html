@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/master.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="filters">
+			<div class="top-filters">
+				<div class="level-filters">
+					<div class="filter-header">Уровень образования</div>
+					<div class="filters-wrapper">
+						<div class="level-filter"><input type="radio" name="level" id="l1" value="Бакалавриат" checked><label for="l1">Бакалавриат</label></div>
+						<div class="level-filter"><input type="radio" name="level" id="l2" value="Специалитет"><label for="l2">Специалитет</label></div>
+						<div class="level-filter"><input type="radio" name="level" id="l3" value="Магистратура"><label for="l3">Магистратура</label></div>
+						<div class="level-filter"><input type="radio" name="level" id="l4" value="Аспирантура"><label for="l3">Аспирантура</label></div>
+					</div>
+				</div>
+				<div class="quick-search">
+					<div class="filter-header">Поиск</div>
+					<input type="search" placeholder="Поиск" name="search">
+				</div>
+			</div>
+			<div class="results">
+				<div class="filter-header">Что сдавал</div>
+				<div class="tags">
+					<label for="">Биология</label><label for="">География</label><label for="">Иностранный язык</label><label for="">Информатика и ИКТ</label><label for="">История</label><label for="">Математика</label><label for="">Обществознание</label><label for="">Русский язык</label><label for="">Физика</label><label for="">Химия</label>
+				</div>
+			</div>
+		</div>
+		<div id="output" data-level="Бакалавриат"></div>
+	</div>
+	<script src="/js/master.js"></script>
+</body>
+
+</html>
