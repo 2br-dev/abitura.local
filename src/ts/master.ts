@@ -309,18 +309,36 @@ function filter(data:IData):IData{
 	// Требования
 	if(filterParams.requirements.length){
 
+		// Первый проход
 		outputArray = outputArray.filter((el:ICardData) => {
 
 			let requirements:IRequirement[] = el.requirements;
-
+			
 			if(requirements.length){
-				
 				let a:string[] = requirements.map(val => val.name)
 				let b:string[] = filterParams.requirements;
 				let contains = b.some(x => a.includes(x));
 				return contains;
 			}
 		})
+
+		// Второй проход
+		if(filterParams.requirements.length > 1){
+			outputArray = outputArray.filter((el:ICardData) => {
+
+				let necessary:IRequirement[] = el.requirements?.filter((r:IRequirement) => {
+					return r.classname == "required";
+				})
+
+				let a:string[] = necessary.map(val => val.name);
+				
+				if(necessary.length){
+					return filterParams.requirements.indexOf(a[0]) >= 0 && filterParams.requirements.indexOf(a[1]) >= 0
+					debugger;
+				}
+
+			})
+		}
 	}
 
 	// Сортировка массива перед выдачей
@@ -341,6 +359,8 @@ function filter(data:IData):IData{
 function sort(input:Array<ICardData>):Array<ICardData>{
 
 	let sortedArray = [...input]; // Копия оригинального массива для изменений
+
+	if(!sortedArray.length) return;
 
     sortedArray.sort((a:ICardData, b:ICardData) => {
 		const nameA = a.faculty.toLowerCase();
