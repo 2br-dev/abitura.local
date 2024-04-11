@@ -307,7 +307,8 @@ function filter(data:IData):IData{
 	}
 
 	// Требования
-	if(filterParams.requirements.length){
+
+	if(filterParams.requirements.length && (filterParams.level == "Бакалавриат" || filterParams.level == 'Специалитет')){
 
 		// Первый проход
 		outputArray = outputArray.filter((el:ICardData) => {
