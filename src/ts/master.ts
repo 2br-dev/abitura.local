@@ -310,7 +310,7 @@ function filter(data:IData):IData{
 
 	if(filterParams.requirements.length && (filterParams.level == "Бакалавриат" || filterParams.level == 'Специалитет')){
 
-		// Первый проход
+		// Первый проход (все)
 		outputArray = outputArray.filter((el:ICardData) => {
 
 			let requirements:IRequirement[] = el.requirements;
@@ -323,7 +323,7 @@ function filter(data:IData):IData{
 			}
 		})
 
-		// Второй проход
+		// Второй проход (обязательные)
 		if(filterParams.requirements.length > 1){
 			outputArray = outputArray.filter((el:ICardData) => {
 
@@ -335,9 +335,27 @@ function filter(data:IData):IData{
 				
 				if(necessary.length){
 					return filterParams.requirements.indexOf(a[0]) >= 0 && filterParams.requirements.indexOf(a[1]) >= 0
-					debugger;
 				}
 
+			})
+		}
+
+		// Третий проход (необязательные)
+		if(filterParams.requirements.length > 2){
+
+			outputArray = outputArray.filter((el:ICardData) => {
+
+				let optional:IRequirement[] = el.requirements?.filter((r:IRequirement) => {
+					return r.classname == 'optional';
+				});
+
+				
+				if(optional.length){
+					let a:string[] = optional.map(val => val.name);
+					let b:string[] = filterParams.requirements;
+					let contains = b.some(x => a.includes(x));
+					return contains;
+				}
 			})
 		}
 	}
