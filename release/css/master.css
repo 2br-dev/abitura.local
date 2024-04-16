@@ -5880,6 +5880,14 @@ body {
     margin-right: 6px;
 }
 
+#output .card .card-content .note {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
 #output[data-level="Бакалавриат"] .card .card-content .education-levels .education-level:not([data-level="Бакалавриат"]) {
     display: none;
 }

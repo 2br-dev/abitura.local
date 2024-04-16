@@ -308,6 +308,14 @@ body{
 					}
 				}
 			}
+
+			& .note{
+				border-top: 1px solid #eee;
+				padding-top: $gutter-width;
+				margin-top: $gutter-width;
+				font-size: 14px;
+				color: #333;
+			}
 		}
 	}
 

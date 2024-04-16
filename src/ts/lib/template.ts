@@ -1,5 +1,10 @@
 let template = `
 {{#elements}}
+{{^id}}
+<div class="faculty-header">
+<h2>{{faculty}}</h2>
+</div>
+{{/id}}
 {{#id}}
 <div class="card hoverable" data-id="{{id}}" data-faculty="{{faculty}}">
 	<div class="card-content">
@@ -42,12 +47,12 @@ let template = `
 				<div class="number-value">{{price}} ₽/год</div>
 			</div>
 		</div>
+		{{#note}}
+		<div class="note">
+		* {{.}}
+		</div>
+		{{/note}}
 	</div>
-</div>
-{{/id}}
-{{^id}}
-<div class="faculty-header">
-<h2>{{faculty}}</h2>
 </div>
 {{/id}}
 {{/elements}}
