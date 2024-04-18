@@ -246,6 +246,7 @@ function filterByLevel(e:JQuery.ChangeEvent):void{
 function render(data:IData):void{
 	
 	let output = mustashe.render(template, data);
+	let educationForm = filterParams.level;
 
 	document.querySelector('#output').innerHTML = output;
 	document.querySelectorAll('.faculty-header').forEach((header:HTMLElement) => {
@@ -256,7 +257,7 @@ function render(data:IData):void{
 		
 		// Обновление кодов в карточке
 		let id = parseInt(card.dataset['id']);
-		let cardData = cards_data.elements[id];
+		let cardData = cards_data.elements[id - 1];
 		let selectedLevel = document.querySelector("[name=level]:checked ~ label")?.textContent;
 		let level = cardData.education_levels?.filter((l:IEducationLevel) => {
 			return l.name == selectedLevel
@@ -264,6 +265,8 @@ function render(data:IData):void{
 
 		if(!level) return;
 		let code = level.code;
+		let freeVacations = level.forms[0].vacations.free.total;
+		let paidVacations = level.forms[0].vacations.paid.total;
 		card.querySelector('.code').textContent = code;
 
 		document.querySelectorAll('.education-level').forEach((level:HTMLElement) => {
@@ -272,6 +275,13 @@ function render(data:IData):void{
 			});
 			level.querySelector('.education-form:first-of-type')?.classList.add('active');
 		})
+
+		// Обновление данных по количеству мест
+		card.querySelector('.number-free .number-value').textContent = freeVacations.toString();
+		card.querySelector('.number-paid .number-value').textContent = paidVacations.toString();
+
+
+
 	})
 }
 
@@ -297,11 +307,7 @@ function filter(data:IData):IData{
 			let needleS = el.speciality.toLowerCase();
 			let needleF = el.faculty.toLowerCase();
 			let needleP = el.profile.toLowerCase();
-			let search = filterParams.quickSearch.toLowerCase();
-
-			if(el.id == 71){
-				debugger;
-			}
+			let search = filterParams.quickSearch.toLowerCase().trim();
 
 			return needleS.indexOf(search) >= 0  || needleF.indexOf(search) >= 0 || needleP.indexOf(search) >= 0 ;
 		})

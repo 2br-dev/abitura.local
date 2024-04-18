@@ -17,8 +17,8 @@ let template = `
 			</div>
 		{{/education_levels}}
 		</div>
-		<div class="title"><span class="code">{{education_levels.0.code}}</span> {{speciality}}</div>
-		<div class="subtitle">{{profile}}</div>
+		<div class="title">{{profile}}</div>
+		<div class="subtitle"><span class="code">{{education_levels.0.code}}</span> {{speciality}}</div>
 		<div class="requirements">
 			<div class="section-title">
 				Необходимые предметы ЕГЭ
