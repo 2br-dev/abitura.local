@@ -5654,70 +5654,50 @@ body {
     outline: none;
 }
 
-.filters .results {
-    margin-top: 20px;
-}
-
-.filters .results .tags {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-@media (max-width: 1200px) {
-    .filters .results .tags {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (max-width: 900px) {
-    .filters .results .tags {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 650px) {
-    .filters .results .tags {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 420px) {
-    .filters .results .tags {
-        display: flex;
-        overflow: scroll;
-    }
-
-    .filters .results .tags label {
-        white-space: nowrap;
-        flex-shrink: 0;
-        padding: 0 20px;
-    }
-}
-
-.filters .results .tags label {
-    border: 1px solid #ccc;
-    text-align: center;
-    display: block;
-    line-height: 3em;
-    cursor: pointer;
-}
-
-.filters .results .tags label:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
-.filters .results .tags label.active {
-    background-color: #3F3F3F;
-    color: #fff;
-}
-
 .filters[data-level="Магистратура"] .results {
     display: none;
 }
 
 .filters[data-level="Аспирантура"] .results {
     display: none;
+}
+
+.results {
+    display: flex;
+}
+
+.results .filter-header {
+    font-size: clamp(12px, 2vw, 14px);
+    color: #a4a4a4;
+    margin-bottom: 10px;
+}
+
+.results .tags {
+    flex-shrink: 0;
+    padding-right: 20px;
+    margin-bottom: 2vw;
+}
+
+.results .tags label {
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    display: block;
+    line-height: 2em;
+    cursor: pointer;
+    padding: 0 1em;
+    margin-bottom: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.results .tags label:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.results .tags label.active {
+    background-color: #3F3F3F;
+    color: #fff;
 }
 
 #output {

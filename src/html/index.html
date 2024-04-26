@@ -24,14 +24,22 @@
 					<input type="search" placeholder="Поиск" name="search">
 				</div>
 			</div>
-			<div class="results">
-				<div class="filter-header">Что сдавал</div>
-				<div class="tags">
-					@@loop('./parts/eg.html', './data/tags.json')
+		</div>
+		<div class="results">
+			<div class="filters-sidebar">
+				<div class="pin">
+					<div class="filter-header">Обязательные пары</div>
+					<div class="tags">
+						@@loop('./parts/eg.html', './data/tag_pairs.json')
+					</div>
+					<div class="filter-header">Необязательные предметы</div>
+					<div class="tags">
+						@@loop('./parts/eg.html', './data/tags.json')
+					</div>
 				</div>
 			</div>
+			<div id="output" data-level="Бакалавриат"></div>
 		</div>
-		<div id="output" data-level="Бакалавриат"></div>
 	</div>
 	<script src="/js/master.js"></script>
 </body>

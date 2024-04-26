@@ -26,14 +26,22 @@
 					<input type="search" placeholder="Поиск" name="search">
 				</div>
 			</div>
-			<div class="results">
-				<div class="filter-header">Что сдавал</div>
-				<div class="tags">
-					<label for="">Биология</label><label for="">География</label><label for="">Иностранный язык</label><label for="">Информатика и ИКТ</label><label for="">История</label><label for="">Математика</label><label for="">Обществознание</label><label for="">Русский язык</label><label for="">Физика</label><label for="">Химия</label>
+		</div>
+		<div class="results">
+			<div class="filters-sidebar">
+				<div class="pin">
+					<div class="filter-header">Обязательные пары</div>
+					<div class="tags">
+						<label class="pair">Русский язык, Математика</label><label class="pair">Русский язык, Биология</label><label class="pair">Русский язык, География</label><label class="pair">Русский язык, Обществознание</label>
+					</div>
+					<div class="filter-header">Необязательные предметы</div>
+					<div class="tags">
+						<label class="single">Биология</label><label class="single">География</label><label class="single">Иностранный язык</label><label class="single">Информатика и ИКТ</label><label class="single">История</label><label class="single">Математика</label><label class="single">Обществознание</label><label class="single">Русский язык</label><label class="single">Физика</label><label class="single">Химия</label>
+					</div>
 				</div>
 			</div>
+			<div id="output" data-level="Бакалавриат"></div>
 		</div>
-		<div id="output" data-level="Бакалавриат"></div>
 	</div>
 	<script src="/js/master.js"></script>
 </body>

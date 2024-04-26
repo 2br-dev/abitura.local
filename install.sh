@@ -394,7 +394,7 @@ yarn add --dev gulp-sass node-sass gulp-autoprefixer@8.0.0 gulp-cssbeautify
 yarn add webpack webpack-stream @babel/core @babel/preset-env @babel/preset-typescript babel-loader
 
 # extra
-yarn add --dev materialize-css swiper vanilla-lazyload jquery
+yarn add --dev materialize-css swiper vanilla-lazyload jquery @types/jquery
 
 touch ./src/html/index.html
 touch ./src/scss/master.scss

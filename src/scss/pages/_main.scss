@@ -87,58 +87,6 @@ body{
 		}
 	}
 
-	& .results{
-
-		margin-top: $gutter-width;
-
-		& .tags{
-
-			display: grid;
-			gap: $gutter-width;
-			grid-template-columns: repeat(5, 1fr);
-
-			@media(max-width: 1200px){
-				grid-template-columns: repeat(4, 1fr);
-			}
-
-			@media(max-width: 900px){
-				grid-template-columns: repeat(3, 1fr);
-			}
-
-			@media(max-width: 650px){
-				grid-template-columns: repeat(2, 1fr);
-			}
-
-			@media(max-width: 420px){
-				display: flex;
-				overflow: scroll;
-
-				& label{
-					white-space: nowrap;
-					flex-shrink: 0;
-					padding: 0 20px;
-				}
-			}
-
-			& label{
-				border: 1px solid #ccc;
-				text-align: center;
-				display: block;
-				line-height: 3em;
-				cursor: pointer;
-
-				&:hover{
-					background-color: rgba(black, .05);
-				}
-
-				&.active{
-					background-color: #3F3F3F;
-					color: #fff;
-				}
-			}
-		}
-	}
-
 	&[data-level="Магистратура"] .results{
 		display: none;
 	}
@@ -147,6 +95,43 @@ body{
 		display: none;
 	}
 	
+}
+
+.results{
+
+	display: flex;
+
+	& .filter-header{
+		@include fieldHeader();
+	}
+
+	& .tags{
+
+		flex-shrink: 0;
+		padding-right: 20px;
+		margin-bottom: 2vw;
+		
+		& label{
+
+			white-space: nowrap;
+			border: 1px solid #ccc;
+			display: block;
+			line-height: 2em;
+			cursor: pointer;
+			padding: 0 1em;
+			margin-bottom: 10px;
+			user-select: none;
+
+			&:hover{
+				background-color: rgba(black, .05);
+			}
+
+			&.active{
+				background-color: #3F3F3F;
+				color: #fff;
+			}
+		}
+	}
 }
 
 #output{

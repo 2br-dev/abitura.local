@@ -4,9 +4,11 @@ import * as $ from 'jquery';
 import template from './lib/template';
 
 let cards_data:IData;
+(window as any).cards_data = cards_data;
 let filterParams = {
 	quickSearch: "",
 	level: "Бакалавриат",
+	requirementPairs: [],
 	requirements: []
 }
 
@@ -208,9 +210,15 @@ function filterByTags(e:JQuery.ClickEvent):void{
 		el.classList.remove('active');
 	}
 
-	let selectedTags = document.querySelectorAll('.tags label.active');
-	filterParams.requirements = [];
+	let selectedPairs = document.querySelectorAll('label.pair.active');
+	filterParams.requirementPairs = [];
+	selectedPairs.forEach((pair:HTMLLabelElement) => {
+		let pairArray = pair.textContent?.split(", ");
+		filterParams.requirementPairs.push(pairArray);
+	});
 
+	let selectedTags = document.querySelectorAll('label.single.active');
+	filterParams.requirements = [];
 	selectedTags.forEach((tag:HTMLElement) => {
 		filterParams.requirements.push(tag.textContent);
 	})
@@ -315,60 +323,48 @@ function filter(data:IData):IData{
 
 	// Требования
 
-	if(filterParams.requirements.length && (filterParams.level == "Бакалавриат" || filterParams.level == 'Специалитет')){
+	if(filterParams.level == "Бакалавриат" || filterParams.level == 'Специалитет'){
 
-		// Первый проход (все требования)
-		outputArray = outputArray.filter((el:ICardData) => {
+		if(filterParams.requirementPairs.length > 0){
 
-			let requirements:IRequirement[] = el.requirements;
+			// Первый проход (обязательные пары)
+			let necessary = [];
+			filterParams.requirementPairs.forEach((pair:Array<string>) => {
+				let necessaryEntries = outputArray.filter((el:ICardData) => {
+	
+					let necessary = el.requirements?.filter((r:IRequirement) => {
+						return r.classname == 'required';
+					});
+	
+					let n1 = necessary?.filter((r:IRequirement) => {
+						return r.name == pair[0];
+					});
+	
+					let n2 = necessary?.filter((r:IRequirement) => {
+						return r.name == pair[1];
+					})
+	
+					return n1.length && n2.length;
+				})
+				necessary = [...necessary]; // Сливаем массивы, чтобы не переписывать ссылки на объекты
+				necessary = necessary.concat(necessaryEntries);
+			})
 			
-			if(requirements.length){
+			outputArray = necessary;
+		}
+
+		// Второй проход (необязательные предметы)
+		if(filterParams.requirements.length > 0){
+
+			let result = outputArray.filter((el:ICardData) => {
+				let requirements:IRequirement[] = el.requirements;
 				let a:string[] = requirements.map(val => val.name)
 				let b:string[] = filterParams.requirements;
 				let contains = b.some(x => a.includes(x));
 				return contains;
-			}
-		})
-
-		// Второй проход (обязательные)
-		if(filterParams.requirements.length >= 1){
-
-			outputArray = outputArray.filter((el:ICardData) => {
-
-				let necessary:IRequirement[] = el.requirements?.filter((r:IRequirement) => {
-					return r.classname == "required";
-				});
-
-				let amount = filterParams.requirements.length >= 2 ? 2 : 1;
-
-				let findCount = 0;
-				for(let i=0; i<filterParams.requirements.length;i++){
-					if(necessary.find(v=> v.name == filterParams.requirements[i])){
-						findCount++;
-					}
-				}
-				return findCount >= amount;
 			})
-		
-		}
 
-		// Третий проход (необязательные)
-		if(filterParams.requirements.length > 2){
-
-			outputArray = outputArray.filter((el:ICardData) => {
-
-				let optional:IRequirement[] = el.requirements?.filter((r:IRequirement) => {
-					return r.classname == 'optional';
-				});
-
-				
-				if(optional.length){
-					let a:string[] = optional.map(val => val.name);
-					let b:string[] = filterParams.requirements;
-					let contains = b.some(x => a.includes(x));
-					return contains;
-				}
-			})
+			outputArray = result;
 		}
 	}
 
