@@ -25,7 +25,7 @@ let template = `
 			</div>
 			<div class="requirements">
 				{{#requirements}}
-				<div class="requirement {{classname}}">{{name}} <span class="min">мин: {{min}}</span></div>
+				<div class="requirement {{classname}}">{{name}} <span class="min">min баллов: {{min}}</span></div>
 				{{/requirements}}
 			</div>
 		</div>
